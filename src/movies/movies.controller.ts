@@ -14,6 +14,12 @@ export class MoviesController {
         return this.moviesService.getAll()
     } 
 
+    // @Get()
+    // getAll(@Req() req, @Res() res): Movie[]{
+    //     return this.moviesService.getAll()
+    // } 
+
+
     // @Get('search')
     // search(@Query('year') searchingYear: string){
     //     return `We are searching for a movie with a title: ${searchingYear}`;
